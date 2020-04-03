@@ -9,14 +9,14 @@ using System.Windows.Forms;
 
 namespace Kouvee_Pet_Shop.Control
 {
-    public partial class KaryawanControl : UserControl
+    public partial class KaryawanUC : UserControl
     {
-        public KaryawanControl()
+        public KaryawanUC()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void KaryawanUC_Load(object sender, EventArgs e)
         {
 
         }

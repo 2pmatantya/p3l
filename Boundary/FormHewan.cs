@@ -39,10 +39,10 @@ namespace Kouvee_Pet_Shop.Boundary
         }
         private void btnInput_Click(object sender, EventArgs e)
         {
-            HewanControl hc = new HewanControl();
-            hc.Parent = this;
-            hc.Show();
-            hc.BringToFront();
+            HewanUC huc = new HewanUC();
+            huc.Parent = this;
+            huc.Show();
+            huc.BringToFront();
         }
 
         public void RefreshGridView()

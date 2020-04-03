@@ -42,10 +42,10 @@ namespace Kouvee_Pet_Shop.Boundary
 
         private void btnInput_Click(object sender, EventArgs e)
         {
-            SupplierControl sc = new SupplierControl();
+            /*SupplierControl sc = new SupplierControl();
             sc.Parent = this;
             sc.Show();
-            sc.BringToFront();
+            sc.BringToFront();*/
         }
 
         public void RefreshGridView()

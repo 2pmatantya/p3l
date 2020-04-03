@@ -40,10 +40,10 @@ namespace Kouvee_Pet_Shop.Boundary
 
         private void btnInput_Click(object sender, EventArgs e)
         {
-            PesanControl pc = new PesanControl();
+            /*PesanControl pc = new PesanControl();
             pc.Parent = this;
             pc.Show();
-            pc.BringToFront();
+            pc.BringToFront();*/
         }
 
         public void RefreshGridView()

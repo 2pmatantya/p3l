@@ -19,6 +19,7 @@ namespace Kouvee_Pet_Shop.Boundary
         {
             InitializeComponent();
         }
+
         CustomerControl cc = new CustomerControl();
         DataTable dt = new DataTable();
 
@@ -40,10 +41,10 @@ namespace Kouvee_Pet_Shop.Boundary
 
         private void btnInput_Click(object sender, EventArgs e)
         {
-            CustomerControl cc = new CustomerControl();
-            cc.Parent = this;
-            cc.Show();
-            cc.BringToFront();
+            CustomerUC cuc = new CustomerUC();
+            cuc.Parent = this;
+            cuc.Show();
+            cuc.BringToFront();
         }
 
         public void RefreshGridView()

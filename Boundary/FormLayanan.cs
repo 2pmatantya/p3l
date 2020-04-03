@@ -40,10 +40,10 @@ namespace Kouvee_Pet_Shop.Boundary
 
         private void btnInput_Click(object sender, EventArgs e)
         {
-            LayananControl lc = new LayananControl();
-            lc.Parent = this;
-            lc.Show();
-            lc.BringToFront();
+            LayananUC luc = new LayananUC();
+            luc.Parent = this;
+            luc.Show();
+            luc.BringToFront();
         }
 
         public void RefreshGridView()

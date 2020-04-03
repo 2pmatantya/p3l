@@ -1,6 +1,6 @@
 ﻿namespace Kouvee_Pet_Shop.Control
 {
-    partial class CustomerControl
+    partial class CustomerUC
     {
         /// <summary> 
         /// Required designer variable.
@@ -89,7 +89,6 @@
             this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 12;
             this.label2.Text = "Tanggal Lahir";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnBatal
             // 

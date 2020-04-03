@@ -45,7 +45,6 @@
             this.txtAlamat.Name = "txtAlamat";
             this.txtAlamat.Size = new System.Drawing.Size(386, 54);
             this.txtAlamat.TabIndex = 26;
-            this.txtAlamat.TextChanged += new System.EventHandler(this.txtAlamat_TextChanged);
             // 
             // txtNamaSupplier
             // 
@@ -53,7 +52,6 @@
             this.txtNamaSupplier.Name = "txtNamaSupplier";
             this.txtNamaSupplier.Size = new System.Drawing.Size(483, 20);
             this.txtNamaSupplier.TabIndex = 25;
-            this.txtNamaSupplier.TextChanged += new System.EventHandler(this.txtNamaSupplier_TextChanged);
             // 
             // label3
             // 

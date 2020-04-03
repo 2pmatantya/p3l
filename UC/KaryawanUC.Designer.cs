@@ -1,6 +1,6 @@
 ﻿namespace Kouvee_Pet_Shop.Control
 {
-    partial class KaryawanControl
+    partial class KaryawanUC
     {
         /// <summary> 
         /// Required designer variable.
@@ -56,7 +56,6 @@
             this.label1.Size = new System.Drawing.Size(80, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nama Lengkap";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -197,7 +196,7 @@
             this.cmbJabatan.Size = new System.Drawing.Size(217, 21);
             this.cmbJabatan.TabIndex = 20;
             // 
-            // KaryawanControl
+            // KaryawanUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -219,8 +218,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "KaryawanControl";
+            this.Name = "KaryawanUC";
             this.Size = new System.Drawing.Size(625, 447);
+            this.Load += new System.EventHandler(this.KaryawanUC_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
