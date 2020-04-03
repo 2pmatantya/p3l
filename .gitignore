@@ -1,2 +1,3 @@
 ﻿#ignore these files
 obj/
+.vs/
