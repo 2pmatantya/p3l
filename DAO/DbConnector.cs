@@ -19,7 +19,7 @@ namespace Kouvee_Pet_Shop.DAO
             //return connectionString;
 
             server = "localhost";
-            database = "9340";
+            database = "p3l_ricky";
             uid = "root";
             password = "";
             string connectionString = "SERVER=" + server + "; USER ID=" + uid + "; DATABASE=" + database + "; PASSWORD=" + password + ";";
