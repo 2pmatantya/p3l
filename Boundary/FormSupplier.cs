@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 using Kouvee_Pet_Shop.Control;
 using MySql.Data.MySqlClient;
+using Kouvee_Pet_Shop.UC;
 
 namespace Kouvee_Pet_Shop.Boundary
 {
@@ -42,10 +43,10 @@ namespace Kouvee_Pet_Shop.Boundary
 
         private void btnInput_Click(object sender, EventArgs e)
         {
-            SupplierControl sc = new SupplierControl();
-            sc.Parent = this;
-            sc.Show();
-            sc.BringToFront();
+            SupplierUC suc = new SupplierUC();
+            suc.Parent = this;
+            suc.Show();
+            suc.BringToFront();
         }
 
         public void RefreshGridView()

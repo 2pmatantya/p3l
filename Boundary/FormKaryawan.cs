@@ -43,10 +43,10 @@ namespace Kouvee_Pet_Shop.Boundary
 
         private void btnInput_Click(object sender, EventArgs e)
         {
-            KaryawanControl kc = new KaryawanControl();
-            kc.Parent = this;
-            kc.Show();
-            kc.BringToFront();
+            KaryawanUC kuc = new KaryawanUC();
+            kuc.Parent = this;
+            kuc.Show();
+            kuc.BringToFront();
         }
 
         public void RefreshGridView()
