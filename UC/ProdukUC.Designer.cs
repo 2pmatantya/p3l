@@ -1,6 +1,6 @@
 ﻿namespace Kouvee_Pet_Shop.Control
 {
-    partial class ProdukPetControl
+    partial class ProdukUC
     {
         /// <summary> 
         /// Required designer variable.

@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Kouvee_Pet_Shop.Control
 {
-    public partial class ProdukPetControl : UserControl
+    public partial class ProdukUC : UserControl
     {
-        public ProdukPetControl()
+        public ProdukUC()
         {
             InitializeComponent();
         }
