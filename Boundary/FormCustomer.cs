@@ -56,5 +56,24 @@ namespace Kouvee_Pet_Shop.Boundary
             setDataGridView(this.dataGridView1);
             RefreshGridView();
         }
+
+        DataTable table = new DataTable();
+
+        private void Remove_DataGridView_Selected_Row_Load(object sender, EventArgs e)
+        {
+            setDataGridView(this.dataGridView1);
+            RefreshGridView();
+            table.Columns.Add("Id", typeof(int));
+            table.Columns.Add("Nama Customer", typeof(string));
+            table.Columns.Add("Alamat", typeof(string));
+            table.Columns.Add("Tanggal Lahir", typeof(string));
+            table.Columns.Add("Nomor Telp", typeof(int));
+        }
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            int rowIndex = dataGridView1.CurrentCell.RowIndex;
+            dataGridView1.Rows.RemoveAt(rowIndex);
+        }
     }
+
 }

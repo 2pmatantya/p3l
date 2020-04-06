@@ -31,9 +31,12 @@ namespace Kouvee_Pet_Shop.Boundary
             DG.DataSource = dt;
 
             DG.Columns[0].HeaderText = "ID";
-            DG.Columns[1].HeaderText = "Nama";
-            DG.Columns[2].HeaderText = "Stok";
-            DG.Columns[3].HeaderText = "Harga";
+            DG.Columns[1].HeaderText = "Nama Produk";
+            DG.Columns[2].HeaderText = "Harga";
+            DG.Columns[3].HeaderText = "Jumlah";
+            DG.Columns[3].HeaderText = "Jenis Produk";
+            DG.Columns[3].HeaderText = "Supplier";
+           
 
 
         }
@@ -56,6 +59,34 @@ namespace Kouvee_Pet_Shop.Boundary
         {
             setDataGridView(this.dataGridView1);
             RefreshGridView();
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+          
+        }
+        DataTable table = new DataTable();
+
+        private void Remove_DataGridView_Selected_Row_Load(object sender, EventArgs e)
+        {
+            setDataGridView(this.dataGridView1);
+            RefreshGridView();
+            table.Columns.Add("Id", typeof(int));
+            table.Columns.Add("Nama Produk", typeof(string));
+            table.Columns.Add("Harga", typeof(int));
+            table.Columns.Add("Jumlah", typeof(int));
+            table.Columns.Add("Jenis Produk", typeof(string));
+            table.Columns.Add("Supplier", typeof(string));
+        }
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            int rowIndex = dataGridView1.CurrentCell.RowIndex;
+            dataGridView1.Rows.RemoveAt(rowIndex);
+        }
+
+        private void txtCari_TextChanged(object sender, EventArgs e)
+        {
+       
         }
     }
 }

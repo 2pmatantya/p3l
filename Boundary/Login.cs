@@ -65,5 +65,10 @@ namespace Kouvee_Pet_Shop.Boundary
             fp.ShowDialog();
             this.Close();
         }
+
+       // private void txtUser_TextChanged(object sender, EventArgs e)
+        //{
+          //  AutoScaleDimensions 
+        //}
     }
 }

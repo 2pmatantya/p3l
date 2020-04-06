@@ -28,24 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnTampil = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
+            this.btnInput = new System.Windows.Forms.Button();
+            this.btnTampil = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtCari = new System.Windows.Forms.TextBox();
-            this.btnInput = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnTampil
-            // 
-            this.btnTampil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnTampil.Location = new System.Drawing.Point(574, 15);
-            this.btnTampil.Name = "btnTampil";
-            this.btnTampil.Size = new System.Drawing.Size(181, 26);
-            this.btnTampil.TabIndex = 23;
-            this.btnTampil.Text = "TAMPIL";
-            this.btnTampil.UseVisualStyleBackColor = false;
             // 
             // btnDelete
             // 
@@ -56,6 +46,7 @@
             this.btnDelete.TabIndex = 22;
             this.btnDelete.Text = "DELETE";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnEdit
             // 
@@ -66,23 +57,6 @@
             this.btnEdit.TabIndex = 21;
             this.btnEdit.Text = "EDIT";
             this.btnEdit.UseVisualStyleBackColor = false;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.txtCari);
-            this.groupBox1.Location = new System.Drawing.Point(21, 47);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(803, 51);
-            this.groupBox1.TabIndex = 20;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Pencarian";
-            // 
-            // txtCari
-            // 
-            this.txtCari.Location = new System.Drawing.Point(6, 19);
-            this.txtCari.Name = "txtCari";
-            this.txtCari.Size = new System.Drawing.Size(774, 20);
-            this.txtCari.TabIndex = 0;
             // 
             // btnInput
             // 
@@ -95,18 +69,46 @@
             this.btnInput.UseVisualStyleBackColor = false;
             this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
             // 
+            // btnTampil
+            // 
+            this.btnTampil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnTampil.Location = new System.Drawing.Point(387, 60);
+            this.btnTampil.Name = "btnTampil";
+            this.btnTampil.Size = new System.Drawing.Size(181, 26);
+            this.btnTampil.TabIndex = 24;
+            this.btnTampil.Text = "CARI";
+            this.btnTampil.UseVisualStyleBackColor = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtCari);
+            this.groupBox1.Location = new System.Drawing.Point(21, 45);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(360, 51);
+            this.groupBox1.TabIndex = 23;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Pencarian";
+            // 
+            // txtCari
+            // 
+            this.txtCari.Location = new System.Drawing.Point(6, 19);
+            this.txtCari.Name = "txtCari";
+            this.txtCari.Size = new System.Drawing.Size(348, 20);
+            this.txtCari.TabIndex = 0;
+            // 
             // FormLaporan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(929, 394);
             this.Controls.Add(this.btnTampil);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnInput);
             this.Name = "FormLaporan";
             this.Text = "Laporan";
+            this.Load += new System.EventHandler(this.FormLaporan_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -114,12 +116,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnTampil;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.Button btnInput;
+        private System.Windows.Forms.Button btnTampil;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtCari;
-        private System.Windows.Forms.Button btnInput;
     }
 }

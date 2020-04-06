@@ -40,10 +40,10 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button8 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btnPesan = new System.Windows.Forms.Button();
             this.btnLaporan = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.btnPesan = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -171,6 +171,17 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Pemesanan dan Laporan";
             // 
+            // btnPesan
+            // 
+            this.btnPesan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPesan.Location = new System.Drawing.Point(16, 33);
+            this.btnPesan.Name = "btnPesan";
+            this.btnPesan.Size = new System.Drawing.Size(113, 48);
+            this.btnPesan.TabIndex = 7;
+            this.btnPesan.Text = "Pemesanan";
+            this.btnPesan.UseVisualStyleBackColor = true;
+            this.btnPesan.Click += new System.EventHandler(this.btnPesan_Click);
+            // 
             // btnLaporan
             // 
             this.btnLaporan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -200,23 +211,12 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Status";
             // 
-            // btnPesan
-            // 
-            this.btnPesan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPesan.Location = new System.Drawing.Point(16, 33);
-            this.btnPesan.Name = "btnPesan";
-            this.btnPesan.Size = new System.Drawing.Size(113, 48);
-            this.btnPesan.TabIndex = 7;
-            this.btnPesan.Text = "Pemesanan";
-            this.btnPesan.UseVisualStyleBackColor = true;
-            this.btnPesan.Click += new System.EventHandler(this.btnPesan_Click);
-            // 
             // FormUtama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(678, 519);
+            this.ClientSize = new System.Drawing.Size(977, 519);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox4);

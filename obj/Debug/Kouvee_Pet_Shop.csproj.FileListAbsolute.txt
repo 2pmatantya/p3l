@@ -66,3 +66,37 @@ D:\Github\p3l\bin\Debug\Ubiety.Dns.Core.dll
 D:\Github\p3l\bin\Debug\Renci.SshNet.dll
 D:\Github\p3l\bin\Debug\MySql.Data.xml
 D:\Github\p3l\obj\Debug\Kouvee_Pet_Shop.csproj.CopyComplete
+E:\P3L Edwin\p3l\bin\Debug\Kouvee_Pet_Shop.exe.config
+E:\P3L Edwin\p3l\bin\Debug\Kouvee_Pet_Shop.exe
+E:\P3L Edwin\p3l\bin\Debug\Kouvee_Pet_Shop.pdb
+E:\P3L Edwin\p3l\bin\Debug\MySql.Data.dll
+E:\P3L Edwin\p3l\bin\Debug\Google.Protobuf.dll
+E:\P3L Edwin\p3l\bin\Debug\BouncyCastle.Crypto.dll
+E:\P3L Edwin\p3l\bin\Debug\Ubiety.Dns.Core.dll
+E:\P3L Edwin\p3l\bin\Debug\Renci.SshNet.dll
+E:\P3L Edwin\p3l\bin\Debug\MySql.Data.xml
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.csprojAssemblyReference.cache
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Boundary.FormCustomer.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Boundary.FormForgotPassword.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Boundary.FormHewan.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Boundary.FormKaryawan.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Boundary.FormLaporan.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Boundary.FormLayanan.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Boundary.FormPesan.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Boundary.FormProduk.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Boundary.FormSupplier.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Boundary.FormUtama.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Boundary.Login.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Control.CustomerUC.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Control.HewanUC.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Control.KaryawanUC.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Control.LayananUC.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.UC.PemesananUC.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.UC.PesanUC.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Control.ProdukUC.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Properties.Resources.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.UC.SupplierUC.resources
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.csproj.GenerateResource.cache
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.csproj.CopyComplete
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.exe
+E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.pdb

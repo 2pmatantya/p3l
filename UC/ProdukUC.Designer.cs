@@ -132,6 +132,7 @@
             this.btnSimpan.TabIndex = 10;
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // btnBatal
             // 
@@ -143,7 +144,7 @@
             this.btnBatal.UseVisualStyleBackColor = true;
             this.btnBatal.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // ProdukPetControl
+            // ProdukUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -159,7 +160,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNama);
-            this.Name = "ProdukPetControl";
+            this.Name = "ProdukUC";
             this.Size = new System.Drawing.Size(744, 281);
             this.Load += new System.EventHandler(this.ProdukPetControl_Load);
             this.ResumeLayout(false);

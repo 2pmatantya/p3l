@@ -55,7 +55,7 @@
             this.groupBox1.Controls.Add(this.txtCari);
             this.groupBox1.Location = new System.Drawing.Point(21, 53);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(803, 51);
+            this.groupBox1.Size = new System.Drawing.Size(360, 51);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Pencarian";
@@ -64,8 +64,9 @@
             // 
             this.txtCari.Location = new System.Drawing.Point(6, 19);
             this.txtCari.Name = "txtCari";
-            this.txtCari.Size = new System.Drawing.Size(774, 20);
+            this.txtCari.Size = new System.Drawing.Size(348, 20);
             this.txtCari.TabIndex = 0;
+            this.txtCari.TextChanged += new System.EventHandler(this.txtCari_TextChanged);
             // 
             // dataGridView1
             // 
@@ -87,6 +88,7 @@
             this.btnEdit.TabIndex = 3;
             this.btnEdit.Text = "EDIT";
             this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDelete
             // 
@@ -97,15 +99,16 @@
             this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "DELETE";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnTampil
             // 
             this.btnTampil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnTampil.Location = new System.Drawing.Point(574, 12);
+            this.btnTampil.Location = new System.Drawing.Point(387, 68);
             this.btnTampil.Name = "btnTampil";
             this.btnTampil.Size = new System.Drawing.Size(181, 26);
             this.btnTampil.TabIndex = 5;
-            this.btnTampil.Text = "TAMPIL";
+            this.btnTampil.Text = "CARI";
             this.btnTampil.UseVisualStyleBackColor = false;
             // 
             // FormProduk
