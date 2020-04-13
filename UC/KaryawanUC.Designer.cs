@@ -154,6 +154,7 @@
             this.btnBatal.TabIndex = 15;
             this.btnBatal.Text = "BATAL";
             this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // btnSimpan
             // 
@@ -163,6 +164,7 @@
             this.btnSimpan.TabIndex = 14;
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click_1);
             // 
             // label8
             // 
@@ -220,7 +222,6 @@
             this.Controls.Add(this.label1);
             this.Name = "KaryawanUC";
             this.Size = new System.Drawing.Size(625, 447);
-            this.Load += new System.EventHandler(this.KaryawanUC_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

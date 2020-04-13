@@ -36,8 +36,8 @@ namespace Kouvee_Pet_Shop.Boundary
             DG.Columns[4].HeaderText = "Nomor Telp";
             DG.Columns[5].HeaderText = "Jabatan";
             DG.Columns[6].HeaderText = "Email";
-            DG.Columns[7].HeaderText = "Username"; 
-            DG.Columns[8].HeaderText = "Password";
+            DG.Columns[7].HeaderText = "Username";
+
 
         }
 
@@ -79,6 +79,14 @@ namespace Kouvee_Pet_Shop.Boundary
         {
             int rowIndex = dataGridView1.CurrentCell.RowIndex;
             dataGridView1.Rows.RemoveAt(rowIndex);
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            KaryawanUC kuc = new KaryawanUC();
+            kuc.Parent = this;
+            kuc.Show();
+            kuc.BringToFront();
         }
     }
 }

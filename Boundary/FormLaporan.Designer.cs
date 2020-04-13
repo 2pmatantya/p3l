@@ -37,18 +37,18 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnDelete
+            //btnDelete
             // 
-            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnDelete.Location = new System.Drawing.Point(387, 15);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(181, 24);
-            this.btnDelete.TabIndex = 22;
-            this.btnDelete.Text = "DELETE";
-            this.btnDelete.UseVisualStyleBackColor = false;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            //this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            //this.btnDelete.Location = new System.Drawing.Point(387, 15);
+            //this.btnDelete.Name = "btnDelete";
+            //this.btnDelete.Size = new System.Drawing.Size(181, 24);
+            //this.btnDelete.TabIndex = 22;
+            //this.btnDelete.Text = "DELETE";
+            //this.btnDelete.UseVisualStyleBackColor = false;
+            //this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
-            // btnEdit
+            //btnEdit
             // 
             this.btnEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnEdit.Location = new System.Drawing.Point(200, 15);
@@ -66,8 +66,8 @@
             this.btnInput.Size = new System.Drawing.Size(173, 24);
             this.btnInput.TabIndex = 18;
             this.btnInput.Text = "INPUT";
-            this.btnInput.UseVisualStyleBackColor = false;
-            this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
+            //this.btnInput.UseVisualStyleBackColor = false;
+            //this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
             // 
             // btnTampil
             // 
@@ -108,7 +108,7 @@
             this.Controls.Add(this.btnInput);
             this.Name = "FormLaporan";
             this.Text = "Laporan";
-            this.Load += new System.EventHandler(this.FormLaporan_Load);
+            //this.Load += new System.EventHandler(this.FormLaporan_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

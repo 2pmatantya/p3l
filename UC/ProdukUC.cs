@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 
 using Kouvee_Pet_Shop.Control;
 using MySql.Data.MySqlClient;
+using Kouvee_Pet_Shop.Entity;
+using Kouvee_Pet_Shop.Boundary;
 
 namespace Kouvee_Pet_Shop.Control
 {
@@ -22,6 +24,7 @@ namespace Kouvee_Pet_Shop.Control
         {
             InitializeComponent();
         }
+        ProdukControl pc = new ProdukControl();
 
         public void openConnection()
         {
@@ -86,9 +89,21 @@ namespace Kouvee_Pet_Shop.Control
 
         private void btnSimpan_Click(object sender, EventArgs e)
         {
-                string insertQuery = "INSERT INTO products(Nama Produk ,Harga ,Jumlah, Jenis Produk, Supplier) VALUES ('" + txtNama.Text + "','" + txtHarga.Text + "','" +
-                                     txtHarga.Text + "','" + cmbJenis.Text + "','" + txtSupplier.Text + "')";
-                executeQuery(insertQuery);
+            // string insertQuery = "INSERT INTO products(Nama Produk ,Harga ,Jumlah, Jenis Produk, Supplier) VALUES ('" + txtNama.Text + "','" + txtHarga.Text + "','" +
+            //                     txtHarga.Text + "','" + cmbJenis.Text + "','" + txtSupplier.Text + "')";
+            // executeQuery(insertQuery);
+            Produk input = new Produk(txtNama.Text, int.Parse(txtHarga.Text), int.Parse(txtJumlah.Text), txtSupplier.Text);
+            bool check = pc.insertProduk(input);
+            if (check) {
+                MessageBox.Show("sukses");
+            }
+            else
+            {
+                MessageBox.Show(input.Nama_produk+" "+input.Harga + " " + input.Jumlah + " " + input.Supplier,"gagal");
+            }
+            this.Hide();
+            FormProduk myparent = (FormProduk)this.Parent;
+            myparent.RefreshGridView();
         }
     }
 }

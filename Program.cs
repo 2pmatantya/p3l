@@ -18,7 +18,7 @@ namespace Kouvee_Pet_Shop
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormProduk());
+            Application.Run(new FormLayanan());
         }
     }
 }

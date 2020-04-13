@@ -125,11 +125,17 @@
     <Compile Include="Control\HewanControl.cs" />
     <Compile Include="Control\KaryawanControl.cs" />
     <Compile Include="Control\LayananControl.cs" />
-    <Compile Include="Control\Login.cs" />
+    <Compile Include="Control\LoginControl.cs" />
     <Compile Include="Control\PesanControl.cs" />
     <Compile Include="Control\SupplierControl.cs" />
-    <Compile Include="DAO\DAOLogin.cs" />
+    <Compile Include="DAO\ProdukDAO.cs" />
+    <Compile Include="Entity\Layanan.cs" />
+    <Compile Include="Entity\Customer.cs" />
+    <Compile Include="Entity\Hewan.cs" />
+    <Compile Include="Entity\Karyawan.cs" />
+    <Compile Include="Entity\Produk.cs" />
     <Compile Include="Entity\Role.cs" />
+    <Compile Include="Entity\Supplier.cs" />
     <Compile Include="UC\CustomerUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -153,12 +159,6 @@
     </Compile>
     <Compile Include="UC\LayananUC.Designer.cs">
       <DependentUpon>LayananUC.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC\PemesananUC.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC\PemesananUC.Designer.cs">
-      <DependentUpon>PemesananUC.cs</DependentUpon>
     </Compile>
     <Compile Include="UC\PesanUC.cs">
       <SubType>UserControl</SubType>
@@ -227,9 +227,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UC\LayananUC.resx">
       <DependentUpon>LayananUC.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC\PemesananUC.resx">
-      <DependentUpon>PemesananUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC\PesanUC.resx">
       <DependentUpon>PesanUC.cs</DependentUpon>

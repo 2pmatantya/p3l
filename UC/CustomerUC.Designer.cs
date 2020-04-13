@@ -30,7 +30,7 @@
         {
             this.txtTelp = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtNamaKaryawan = new System.Windows.Forms.TextBox();
+            this.txtNama = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -56,12 +56,12 @@
             this.label4.TabIndex = 17;
             this.label4.Text = "Nomor Telp";
             // 
-            // txtNamaKaryawan
+            // txtNama
             // 
-            this.txtNamaKaryawan.Location = new System.Drawing.Point(178, 49);
-            this.txtNamaKaryawan.Name = "txtNamaKaryawan";
-            this.txtNamaKaryawan.Size = new System.Drawing.Size(483, 20);
-            this.txtNamaKaryawan.TabIndex = 14;
+            this.txtNama.Location = new System.Drawing.Point(178, 49);
+            this.txtNama.Name = "txtNama";
+            this.txtNama.Size = new System.Drawing.Size(483, 20);
+            this.txtNama.TabIndex = 14;
             // 
             // label3
             // 
@@ -98,6 +98,7 @@
             this.btnBatal.TabIndex = 20;
             this.btnBatal.Text = "BATAL";
             this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // btnSimpan
             // 
@@ -107,6 +108,7 @@
             this.btnSimpan.TabIndex = 19;
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // tgllahir
             // 
@@ -123,7 +125,7 @@
             this.txtAlamat.Size = new System.Drawing.Size(386, 54);
             this.txtAlamat.TabIndex = 22;
             // 
-            // CustomerControl
+            // CustomerUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -133,11 +135,11 @@
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.txtTelp);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtNamaKaryawan);
+            this.Controls.Add(this.txtNama);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "CustomerControl";
+            this.Name = "CustomerUC";
             this.Size = new System.Drawing.Size(676, 298);
             this.Load += new System.EventHandler(this.CustomerControl_Load);
             this.ResumeLayout(false);
@@ -149,7 +151,7 @@
 
         private System.Windows.Forms.TextBox txtTelp;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtNamaKaryawan;
+        private System.Windows.Forms.TextBox txtNama;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

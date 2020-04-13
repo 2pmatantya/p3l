@@ -25,11 +25,11 @@ namespace Kouvee_Pet_Shop.Boundary
         public void setDataGridView(DataGridView DG)
         {
             dt.Clear();
-            //MySqlDataAdapter adapter = lc.showLayanan();
-            //adapter.Fill(dt);
+            MySqlDataAdapter adapter = lc.showLayanan();
+            adapter.Fill(dt);
             DG.DataSource = dt;
 
-            DG.Columns[0].HeaderText = "ID";
+            DG.Columns[0].HeaderText = "id";
             DG.Columns[1].HeaderText = "Nama Layanan";
             DG.Columns[2].HeaderText = "Harga";
 
@@ -69,6 +69,14 @@ namespace Kouvee_Pet_Shop.Boundary
         {
             int rowIndex = dataGridView1.CurrentCell.RowIndex;
             dataGridView1.Rows.RemoveAt(rowIndex);
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            LayananUC luc = new LayananUC();
+            luc.Parent = this;
+            luc.Show();
+            luc.BringToFront();
         }
     }
 }

@@ -91,7 +91,6 @@ E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Control.CustomerUC.resources
 E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Control.HewanUC.resources
 E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Control.KaryawanUC.resources
 E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Control.LayananUC.resources
-E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.UC.PemesananUC.resources
 E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.UC.PesanUC.resources
 E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Control.ProdukUC.resources
 E:\P3L Edwin\p3l\obj\Debug\Kouvee_Pet_Shop.Properties.Resources.resources

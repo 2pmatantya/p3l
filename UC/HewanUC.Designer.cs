@@ -48,7 +48,7 @@
             this.label4.Size = new System.Drawing.Size(68, 13);
             this.label4.TabIndex = 26;
             this.label4.Text = "Jenis Hewan";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+//            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtNama
             // 

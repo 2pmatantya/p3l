@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using Kouvee_Pet_Shop.Control;
+using Kouvee_Pet_Shop.UC;
 using MySql.Data.MySqlClient;
 
 namespace Kouvee_Pet_Shop.Boundary
@@ -42,10 +43,10 @@ namespace Kouvee_Pet_Shop.Boundary
 
         private void btnInput_Click(object sender, EventArgs e)
         {
-            /*SupplierControl sc = new SupplierControl();
-            sc.Parent = this;
-            sc.Show();
-            sc.BringToFront();*/
+            SupplierUC suc = new SupplierUC();
+            suc.Parent = this;
+            suc.Show();
+            suc.BringToFront();
         }
 
         public void RefreshGridView()
@@ -56,6 +57,21 @@ namespace Kouvee_Pet_Shop.Boundary
         {
             setDataGridView(this.dataGridView1);
             RefreshGridView();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            int rowIndex = dataGridView1.CurrentCell.RowIndex;
+            dataGridView1.Rows.RemoveAt(rowIndex);
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+
+            SupplierUC suc = new SupplierUC();
+            suc.Parent = this;
+            suc.Show();
+            suc.BringToFront();
         }
     }
 }

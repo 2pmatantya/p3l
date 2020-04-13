@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
-using Kouvee_Pet_Shop.Control;
+
 using Kouvee_Pet_Shop.DAO;
-using System.Data;
+using MySql.Data.MySqlClient;
 
-
-namespace Kouvee_Pet_Shop.DAO
+namespace Kouvee_Pet_Shop.Control
 {
-    class DAOLogin
+    class LoginControl
     {
         public bool validate_login(string user, string password)
         {

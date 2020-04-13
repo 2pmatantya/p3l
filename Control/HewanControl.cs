@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Kouvee_Pet_Shop.DAO;
+using Kouvee_Pet_Shop.Entity;
 using MySql.Data.MySqlClient;
 
 namespace Kouvee_Pet_Shop.Control
@@ -34,6 +35,11 @@ namespace Kouvee_Pet_Shop.Control
                 //if (conn.State == ConnectionState.Open)
                 conn.Close();
             }
+        }
+
+        internal bool insertHewan(Hewan input)
+        {
+            throw new NotImplementedException();
         }
     }
 }

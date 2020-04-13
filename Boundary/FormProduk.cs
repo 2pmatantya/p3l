@@ -41,8 +41,6 @@ namespace Kouvee_Pet_Shop.Boundary
 
         }
 
-
-
         private void btnInput_Click(object sender, EventArgs e)
         {
             ProdukUC puc = new ProdukUC();
@@ -63,7 +61,11 @@ namespace Kouvee_Pet_Shop.Boundary
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-          
+            ProdukUC puc = new ProdukUC();
+            puc.Parent = this;
+            puc.Show();
+            puc.BringToFront();
+
         }
         DataTable table = new DataTable();
 

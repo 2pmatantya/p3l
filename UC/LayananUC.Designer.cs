@@ -44,6 +44,7 @@
             this.btnBatal.TabIndex = 13;
             this.btnBatal.Text = "BATAL";
             this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnSimpan
             // 
@@ -53,6 +54,7 @@
             this.btnSimpan.TabIndex = 12;
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // label1
             // 
@@ -86,7 +88,7 @@
             this.txtHarga.Size = new System.Drawing.Size(212, 20);
             this.txtHarga.TabIndex = 17;
             // 
-            // LayananControl
+            // LayananUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -96,7 +98,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBatal);
             this.Controls.Add(this.btnSimpan);
-            this.Name = "LayananControl";
+            this.Name = "LayananUC";
             this.Size = new System.Drawing.Size(547, 193);
             this.ResumeLayout(false);
             this.PerformLayout();

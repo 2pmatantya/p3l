@@ -33,8 +33,7 @@ namespace Kouvee_Pet_Shop.Boundary
             DG.Columns[0].HeaderText = "ID";
             DG.Columns[1].HeaderText = "Nama";
             DG.Columns[2].HeaderText = "Alamat";
-            DG.Columns[3].HeaderText = "Tanggal Lahir";
-            DG.Columns[4].HeaderText = "Nomor Telp";
+            DG.Columns[3].HeaderText = "Nomor Telp";
 
 
         }
@@ -67,12 +66,20 @@ namespace Kouvee_Pet_Shop.Boundary
             table.Columns.Add("Nama Customer", typeof(string));
             table.Columns.Add("Alamat", typeof(string));
             table.Columns.Add("Tanggal Lahir", typeof(string));
-            table.Columns.Add("Nomor Telp", typeof(int));
+            table.Columns.Add("Nomor Telp", typeof(string));
         }
         private void btnDelete_Click(object sender, EventArgs e)
         {
             int rowIndex = dataGridView1.CurrentCell.RowIndex;
             dataGridView1.Rows.RemoveAt(rowIndex);
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            CustomerUC cuc = new CustomerUC();
+            cuc.Parent = this;
+            cuc.Show();
+            cuc.BringToFront();
         }
     }
 

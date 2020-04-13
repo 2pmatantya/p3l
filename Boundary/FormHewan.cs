@@ -72,5 +72,14 @@ namespace Kouvee_Pet_Shop.Boundary
             int rowIndex = dataGridView1.CurrentCell.RowIndex;
             dataGridView1.Rows.RemoveAt(rowIndex);
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            HewanUC huc = new HewanUC();
+            huc.Parent = this;
+            huc.Show();
+            huc.BringToFront();
+
+        }
     }
 }

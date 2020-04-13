@@ -144,16 +144,16 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.button8);
-            this.groupBox3.Location = new System.Drawing.Point(307, 280);
+            this.groupBox3.Location = new System.Drawing.Point(301, 143);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(315, 231);
+            this.groupBox3.Size = new System.Drawing.Size(271, 257);
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Pembayaran";
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(196, 169);
+            this.button8.Location = new System.Drawing.Point(152, 213);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(113, 38);
             this.button8.TabIndex = 0;
@@ -196,7 +196,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(28, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(560, 125);
             this.pictureBox1.TabIndex = 12;
@@ -204,9 +204,9 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Location = new System.Drawing.Point(307, 143);
+            this.groupBox5.Location = new System.Drawing.Point(578, 12);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(315, 131);
+            this.groupBox5.Size = new System.Drawing.Size(315, 125);
             this.groupBox5.TabIndex = 13;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Status";
@@ -216,7 +216,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(977, 519);
+            this.ClientSize = new System.Drawing.Size(904, 519);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox4);
